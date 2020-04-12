@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package minhquan_59131988_bt1;
-
+package IQLSV;
+import List.CaNhan;
+import java.util.ArrayList;
 /**
  *
  * @author quan
  */
-public class CaNhan {
-    
+public interface IQLSV {
+    public int them(CaNhan caNhan);
+    public int xoa(String ten);
+    public void inDS(ArrayList<CaNhan> ds);
 }
